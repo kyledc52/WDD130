@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    /* color:brown; */
+}
+
+nav {
+    background-color: steelblue;
+    padding: 20px;
+}
+
+a {
+    color : white;
+    margin: 40px;
+}
+
+h1 {
+    color : steelblue;
+}
+
+img {
+    width : 800px;
+    border : 4px solid steelblue
+}
+
+footer {
+    background-color: steelblue;
+    color : white;
+}
