@@ -1,0 +1,56 @@
+body {
+    background-color: pink;
+    font-family: sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+header p {
+    width: 30em;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#title {
+    display: inline-block;
+    padding: 0.5em;
+}
+#title:hover {
+    color: black;
+}
+
+img {
+    width: 10em;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+ol {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.quote {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7em;
+    text-align: center;
+    margin: 0 auto;
+    width: 17%;
+    line-height: 1.2em;
+}
+
+footer {
+    padding: 1em;
+    padding-bottom: 2.5em;
+}
+
+footer p {
+    font-size: small;
+    text-align: center;
+    margin: 0 auto;
+    width: 20em;
+}
