@@ -31,6 +31,7 @@ img {
 ol {
     width: 25%;
     margin: 0 auto;
+    font-weight: bold;
 }
 
 .quote {
