@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Montserrat&display=swap');
+/* --heading-font: "Francois One";
+--paragraph-font: Montserrat; */
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: Montserrat;
+}
+
+h2 {
+    margin: 0;
 }
 
 nav a {
@@ -34,6 +47,10 @@ main .icon {
     width: 80px;
 }
 
+.icon {
+    padding-top: 10px;
+}
+
 #hero #hero-img {
     /* 100% is equivalent to max-width */
     width: 100%;
@@ -47,6 +64,10 @@ main .icon {
 */
 body {
     background-color: white;
+    font-family: "Francois One", Arial, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -58,14 +79,31 @@ nav a:hover {
 }
 nav a {
     color: white;
+    padding: 35px;
 }
 
+#rivers-card, #camping-card, #rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #41748a;
+}
+
+main section img {
+    box-sizing: border-box;
+}
 
 /* links */
 .book, .join {
     background-color: #41748a;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    /* Rounds edges */
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #090749;
@@ -78,17 +116,23 @@ nav a {
 /* above footer */
 .msg {
     background-color: #DD7E11;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: white;
 }
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #41748a;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
@@ -103,11 +147,23 @@ footer a {
 footer a:hover {
     color: white;
 }
+footer .social {
+    padding-top: 15px;
+}
 
 .home-title {
     color: #DD7E11;
+    margin-top: 10px;
 }
 
 h4 {
     color: black;
+}
+
+.home-title {
+    font-size: 2em;
+}
+
+#logo-link {
+    padding-top: 5px;
 }
