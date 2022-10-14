@@ -11,7 +11,9 @@
 h1, h2, h3, h4 {
     font-family: Montserrat;
 }
-
+h4 {
+    color: black;
+}
 h2 {
     margin: 0;
 }
@@ -154,10 +156,6 @@ footer .social {
 .home-title {
     color: #DD7E11;
     margin-top: 10px;
-}
-
-h4 {
-    color: black;
 }
 
 .home-title {
