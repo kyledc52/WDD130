@@ -19,7 +19,7 @@ body {
 img {
     grid-column: 1 / 4;
     grid-row: 1 / 2;
-    /* justify-self: center; */
+    justify-self: center;
 }
 
 h4 {
@@ -55,7 +55,6 @@ h2 {
     justify-self: center;
     grid-column: 2 / 3;
     grid-row: 5 / 6;
-    background-color: rgb(55, 55, 136);
 }
 #bottomP2 {
     justify-self: center;
