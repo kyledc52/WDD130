@@ -178,22 +178,6 @@ footer {
     padding: 25px 50px;
     margin-top: 200px;
 }
-footer p {
-    font-size: 1.2em;
-}
-footer p a:hover {
-    text-decoration: underline;
-}
-footer a {
-    color: #090749;
-    text-decoration: none;
-}
-footer a:hover {
-    color: white;
-}
-footer .social {
-    padding-top: 15px;
-}
 
 .home-title {
     color: #DD7E11;
@@ -232,7 +216,7 @@ footer .social {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.background {
+#faq-background {
     height: 600px;
     background-color: #DD7E11;
     grid-column: 2 / 10;
@@ -240,7 +224,7 @@ footer .social {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.background img {
+#faq-background img {
     width: 100%;
     height: 100%;
     grid-column: 2 / 5;
@@ -334,7 +318,7 @@ footer .social {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    #rivers-card, #camping-card, #rapids-card { 
         margin: 50px auto;
         width: 60%;
     }
