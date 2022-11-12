@@ -322,12 +322,36 @@ footer .social {
         margin: 50px auto;
         width: 60%;
     }
-    #background {
-        display: none;
-    }
     .mountains, .msg {
         width: 80%;
         display: block;
+        margin: 0 auto;
+    }
+    .main-content {
+        font-size: x-small;
+    }
+    .main-content h3 {
+        font-size: small;
+    }
+    #background {
+        display: none;
+    }
+    .head-bar {
+        font-size: 10px;
+    }
+    #faq-background {
+        height: 400px;
+    }
+    #faq-background img {
+        grid-column: 2 / 6;
+        grid-row: 2 / 5;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    #faq-background .text-box {
+        font-size: x-small;
+        grid-column: 6 / 11;
+        grid-row: 3 / 6;
         margin: 0 auto;
     }
     footer {
