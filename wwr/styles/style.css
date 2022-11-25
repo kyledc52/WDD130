@@ -45,12 +45,14 @@ nav a {
     grid-column: 1 / 4;
     grid-row: 1 / 3;
     z-index: -1;
+    margin-top: 100px;
 }
 #hero-msg {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     /* We also need to push the hero text and button down by the same measurement so it doesn't go over the top of the navigation menu. */
     margin-top: 100px;
+    font-weight: bold;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
