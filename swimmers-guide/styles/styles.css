@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat&family=Fjalla+One&family=Josefin+Sans&family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat&family=Josefin+Sans:wght@200&display=swap');
 
 h1, h2, h3, h4 {
     font-family: 'Caveat', sans-serif, Arial;
 }
 
-p {
+p, a {
     font-family: 'Acme', Arial, sans-serif;
 }
 
@@ -44,6 +44,7 @@ nav a {
     text-decoration: none;
     font-size: x-large;
     font-weight: bold;
+    font-family: "Josefin Sans", 'Times New Roman', sans-serif;
 }
 nav a:hover {
     opacity: .99;
