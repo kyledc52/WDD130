@@ -219,9 +219,154 @@ ul li a:hover {
     margin: 10px 10px 0 0;
     color: white;
 }
-
-
 /* END HOMEPAGE */
+
+
+
+/* STROKES PAGE */
+.strokes-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-rows: 1fr 2fr 1fr 2fr 1fr 2fr;
+}
+#strokes-main-head-bar {
+    align-self: center;
+    font-size: xx-large;
+    color: white;
+    background-color: #274C77;
+    grid-column: 4 / 8;
+    margin-bottom: 10px;
+}
+#strokes-background {
+    grid-column: 2 / 10;
+    grid-row: 2 / 10;
+    background-color: #6096BA;
+    z-index: -1;
+}
+#intro-paragraph {
+    grid-column: 2 / 6;
+    grid-row: 2 / 4;
+    margin: 20px 0 0 40px;
+    color: white;
+    font-size: x-large;
+    text-align: left;
+}
+#TYM {
+    grid-column: 6 / 10;
+    grid-row: 2 / 10;
+    margin: 20px 0 0 0;
+    justify-self: center;
+    box-shadow: 5px 5px 10px black;
+}
+#BU-head-bar {
+    grid-column: 4 / 8;
+    grid-row: 3 / 4;
+    background-color: #274C77;
+    margin-top: 50px;
+    align-self: center;
+    box-shadow: 5px 5px 10px black;
+}
+#BU-head-bar h3 {
+    color: white;
+    font-size: x-large;
+}
+#BU-paragraph {
+    grid-column: 2 / 6;
+    grid-row:  4 / 5;
+    margin: 20px 0 0 40px;
+    color: white;
+    text-align: left;
+}
+#BU {
+    grid-column: 6 / 10;
+    grid-row: 4 / 5;
+    margin: 20px 0 0 0;
+    justify-self: center;
+    box-shadow: 5px 5px 10px black;
+}
+
+#BR-head-bar {
+    grid-column: 4 / 8;
+    grid-row: 5 / 6;
+    background-color: #274C77;
+    margin-top: 50px;
+    align-self: center;
+    box-shadow: 5px 5px 10px black;
+}
+#BR-head-bar h3 {
+    color: white;
+    font-size: x-large;
+}
+#BR-paragraph {
+    grid-column: 2 / 6;
+    grid-row:  6 / 7;
+    margin: 20px 0 0 40px;
+    color: white;
+    text-align: left;
+    font-size: large;
+}
+#BR {
+    grid-column: 6 / 10;
+    grid-row:  6 / 7;
+    justify-self: center;
+    margin: 20px 0 10px 0;
+    box-shadow: 5px 5px 10px black;
+}
+
+#BF-head-bar {
+    grid-column: 4 / 8;
+    grid-row: 7 / 8;
+    background-color: #274C77;
+    margin: auto 0 0 0;
+    align-self: center;
+    box-shadow: 5px 5px 10px black;
+}
+#BF-head-bar h3 {
+    color: white;
+    font-size: x-large;
+}
+#BF-paragraph {
+    grid-column: 2 / 6;
+    grid-row:  8 / 9;
+    margin: 20px 0 0 40px;
+    color: white;
+    text-align: left;
+    font-size: large;
+    font-size: large;
+}
+#BF {
+    grid-column: 6 / 10;
+    grid-row: 8 / 9;
+    margin: 20px 0 10px 0;
+    justify-self: center;
+    box-shadow: 5px 5px 10px black;
+}
+/* END STROKES PAGE */
+
+
+
+/* WORKOUTS PAGE */
+.workouts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#workouts-main-head-bar {
+    align-self: center;
+    font-size: xx-large;
+    color: white;
+    background-color: #274C77;
+    grid-column: 4 / 8;
+    margin-bottom: 10px;
+}
+#workouts-background {
+    grid-column: 2 / 10;
+    grid-row: 2 / 13;
+    background-color: #6096BA;
+    z-index: -1;
+}
+/* END WORKOUTS PAGE */
 
 /* FOOTER */
 footer {
