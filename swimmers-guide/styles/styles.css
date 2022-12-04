@@ -491,6 +491,9 @@ footer a:hover {
     main.home-grid {
         grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
     }
+    .main-head-bar {
+        grid-column: 3 / 9;
+    }
     #main-paragraph-background, .main-paragraph {
         grid-column: 1 / 11;
         grid-row: 2 / 3;
@@ -615,5 +618,38 @@ footer a:hover {
         grid-row: 12 / 13;
         width: 75%;
         margin: 0 0 20px 0;
+    }
+    /* end strokes */
+
+    /* workouts */
+    .workouts-grid {
+
+    }
+    #first-head-bar {
+        grid-column: 3 / 9;
+        margin-top: 10px;
+    }
+    #workout1-paragraph {
+        grid-column: 2 / 10;
+        font-size: 15px;
+    }
+    #second-head-bar {
+        grid-column: 2 / 10;
+        margin-top: 10px;
+    }
+    #workout2-paragraph {
+        grid-column: 2 / 10;
+        font-size: 15px;
+    }
+    #third-head-bar {
+        grid-column: 3 / 9;
+        margin-top: 10px;
+    }
+    #workout3-paragraph {
+        grid-column: 2 / 10;
+        font-size: 15px;
+    }
+    #workout-img {
+        width: 90%;
     }
 }
