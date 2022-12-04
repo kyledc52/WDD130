@@ -450,6 +450,8 @@ footer {
 footer a {
     text-decoration: none;
     color: white;
+    font-family: "Josefin Sans", 'Times New Roman', sans-serif;
+    font-weight: bold;
 }
 footer a:hover {
     opacity: .99;
