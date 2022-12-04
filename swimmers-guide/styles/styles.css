@@ -530,6 +530,7 @@ footer a:hover {
     #shopping-head-bar {
         grid-row: 6 / 7;
         grid-column: 1 / 11;
+        z-index: 2;
     }
     #shopping-paragraph {
         grid-row: 7 / 8;
