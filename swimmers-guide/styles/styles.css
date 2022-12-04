@@ -474,7 +474,6 @@ footer a:hover {
         margin: 5px 0;
     }
     #hero, #home-grid {
-        /* display: block; */
         height: auto;
     }
     #hero-msg-block, #hero-msg {
@@ -485,11 +484,12 @@ footer a:hover {
     h3 {
         font-size: x-large;
     }
+    #main-background, #strokes-background, #workouts-background {
+        grid-column: 1 / 12;
+    }
+    /* home page */
     main.home-grid {
         grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
-    }
-    #main-background {
-        grid-column: 1 / 11;
     }
     #main-paragraph-background, .main-paragraph {
         grid-column: 1 / 11;
@@ -536,5 +536,84 @@ footer a:hover {
         justify-self: center;
         font-size: smaller;
         margin: 20px 0;
+    }
+    /* end homepage */
+
+    /* strokes */
+    .strokes-grid {
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    }
+    #strokes-background {
+        grid-row: 2 / 13; 
+    }
+    #intro-paragraph {
+        grid-column: 2 / 10;
+        grid-row: 2 / 3;
+        margin: 10px 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    #TYM {
+        grid-column: 2 / 10;
+        grid-row: 3 / 4;
+        width: 75%;
+        margin: 0;
+    }
+
+    #BU-head-bar {
+        grid-column: 2 / 10;
+        grid-row: 4 / 5;
+        margin-top: 20px;
+    }
+    #BU-paragraph {
+        grid-column: 2 / 10;
+        grid-row: 5 / 6;
+        text-align: center;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    #BU {
+        grid-column: 2 / 10;
+        grid-row: 6 / 7;
+        width: 75%;
+        margin: 0;
+    }
+
+    #BR-head-bar {
+        grid-column: 2 / 10;
+        grid-row: 7 / 8;
+        margin-top: 20px;
+    }
+    #BR-paragraph {
+        grid-column: 2 / 10;
+        grid-row: 8 / 9;
+        text-align: center;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    #BR {
+        grid-column: 2 / 10;
+        grid-row: 9 / 10;
+        width: 75%;
+        margin: 0;
+    }
+
+    #BF-head-bar {
+        grid-column: 2 / 10;
+        grid-row: 10 / 11;
+        margin-top: 20px;
+    }
+    #BF-paragraph {
+        grid-column: 2 / 10;
+        grid-row: 11 / 12;
+        text-align: center;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    #BF {
+        grid-column: 2 / 10;
+        grid-row: 12 / 13;
+        width: 75%;
+        margin: 0 0 20px 0;
     }
 }
