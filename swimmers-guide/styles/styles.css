@@ -456,3 +456,85 @@ footer a:hover {
     transform: scale(1.08);
 }
 /* END FOOTER */
+
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    header img.logo {
+        width: 100px;
+    }
+    footer {
+        margin-top: 10px;
+    }
+    footer a {
+        padding: 5px 0;
+    }
+    footer p {
+        margin: 5px 0;
+    }
+    #hero, #home-grid {
+        /* display: block; */
+        height: auto;
+    }
+    #hero-msg-block, #hero-msg {
+        margin-top: 20px;
+        font-size: small;
+        grid-column: 1 / 4;
+    }
+    h3 {
+        font-size: x-large;
+    }
+    main.home-grid {
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    }
+    #main-background {
+        grid-column: 1 / 11;
+    }
+    #main-paragraph-background, .main-paragraph {
+        grid-column: 1 / 11;
+        grid-row: 2 / 3;
+        font-size: 15px;
+    }
+    #tired-img {
+        grid-column: 2 / 10;
+        grid-row: 3 / 4;
+        margin: 0 0 20px 0;
+        width: 90%;
+    }
+    #food-head-bar {
+        grid-row: 4 / 5;
+        margin-top: 0px;
+    }
+    #food-paragraph {
+        grid-row: 5 / 6;
+        grid-column: 2 / 10;
+        margin: 20px 10px;
+    }
+    #shopping-background {
+        grid-row: 6 / 8;
+        grid-column: 1 / 11;
+    }
+    #shopping-head-bar {
+        grid-row: 6 / 7;
+        grid-column: 1 / 11;
+    }
+    #shopping-paragraph {
+        grid-row: 7 / 8;
+        grid-column: 1 / 11;
+        margin: 10px 40px;
+    }
+    #me {
+        grid-row: 8 / 9;
+        grid-column: 2 / 10;
+        justify-self: center;
+        width: 100%;
+    }
+    .footnote {
+        grid-row: 9 / 10;
+        grid-column: 2 / 10;
+        justify-self: center;
+        font-size: smaller;
+        margin: 20px 0;
+    }
+}
